@@ -283,6 +283,7 @@
 		B9D95CB89C6249CE0A3203F5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				ORGANIZATIONNAME = "Logic Pie";
 			};
 			buildConfigurationList = B9D95AEDB1CDF6016D0B093C /* Build configuration list for PBXProject "rest-go-repeat" */;
@@ -657,6 +658,7 @@
 				B9D957AD88C9CC7076718059 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9D9559F16CB01C18D9165ED /* Build configuration list for PBXNativeTarget "rest-go-repeatUITests" */ = {
 			isa = XCConfigurationList;
@@ -665,6 +667,7 @@
 				B9D95BCCE5D46E08981E6E80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9D95854D84985244F10792D /* Build configuration list for PBXNativeTarget "rest-go-repeat WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -673,6 +676,7 @@
 				B9D95B80E8CE61E6FFC323A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9D95AEDB1CDF6016D0B093C /* Build configuration list for PBXProject "rest-go-repeat" */ = {
 			isa = XCConfigurationList;
@@ -690,6 +694,7 @@
 				B9D95FF2408D05A9EA98B19D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9D95CD746D7EB1FA16E9FA6 /* Build configuration list for PBXNativeTarget "rest-go-repeat WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -698,6 +703,7 @@
 				B9D95D096C4851C06F809CA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
