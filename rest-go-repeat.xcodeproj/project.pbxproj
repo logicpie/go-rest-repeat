@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9D95083137097CE9F41AC9F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9D954ADC6D10F224086B004 /* Info.plist */; };
+		B9D95344EA5B28DCEA89BD78 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95819F0CF1AFB876ECAB1 /* ExtensionDelegate.swift */; };
+		B9D9534C5EA0B2535223B6E9 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D95EBAEE1C3FE1CE846D94 /* Interface.storyboard */; };
+		B9D953D122584FB068BBC7FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D95A2F0B194B32B455EDD8 /* Assets.xcassets */; };
+		B9D953D3B3B9E20F80A81A22 /* rest_go_repeatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D953114547B313E71943EA /* rest_go_repeatUITests.swift */; };
+		B9D9554B283582AAEF85667C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D95001A46378CF8CB11385 /* LaunchScreen.storyboard */; };
+		B9D955958FBD1C3A25326F9C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9D9516E3D8FC20FC7A62225 /* Info.plist */; };
+		B9D9579C27E48B6AB155C05B /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95028B0FFDEE2B58E4E5D /* NotificationController.swift */; };
+		B9D9587C1117F2E608DD7202 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D950E1303CBEFE73AAD0C3 /* AppDelegate.swift */; };
+		B9D9593D424A67B4C6B46300 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95BB920D9ED73D298EFEC /* ViewController.swift */; };
+		B9D9594BC8C30EFE5CD6A014 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9D95E5904FB14627FCBDE68 /* Info.plist */; };
+		B9D95953D25266E365366202 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9D956E108C7AAA6C8E023D1 /* Info.plist */; };
+		B9D95C2ADE5F15F059BA311F /* rest_go_repeatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95B4414609BA08C443624 /* rest_go_repeatTests.swift */; };
+		B9D95C8177A6155328AD5575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D95476CBD230AB521FE404 /* Assets.xcassets */; };
+		B9D95D219E3C0F8D92B3E4B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D95FF729FAC40D55CBBD02 /* Main.storyboard */; };
+		B9D95D6C874C825B5D17F79C /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D950CBF556BE87C120988D /* InterfaceController.swift */; };
+		B9D95D8F2CF9FB11BDD0253F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9D95CD2E64C59AC4C26CD30 /* Info.plist */; };
+		B9D95EECADA50D383EF2DDB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D95411692D687793B25BB3 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9D95738F86F62D23B5C4974 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9D95CB89C6249CE0A3203F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9D9572372A22E702CA7849B;
+			remoteInfo = "rest-go-repeat";
+		};
+		B9D9581700CD47067EBC5588 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9D95CB89C6249CE0A3203F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9D9572372A22E702CA7849B;
+			remoteInfo = "rest-go-repeat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9D95028B0FFDEE2B58E4E5D /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		B9D950CBF556BE87C120988D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		B9D950E1303CBEFE73AAD0C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9D9516E3D8FC20FC7A62225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B9D9525AEDF131C1253F0936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9D953114547B313E71943EA /* rest_go_repeatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rest_go_repeatUITests.swift; sourceTree = "<group>"; };
+		B9D95411692D687793B25BB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9D95476CBD230AB521FE404 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9D954ADC6D10F224086B004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B9D954B46518B45F44DA6DE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9D95525122C8744ACE04F7B /* rest-go-repeatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rest-go-repeatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D956456FD8EF239B7EA048 /* rest-go-repeat WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "rest-go-repeat WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D956E108C7AAA6C8E023D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B9D9579A9585840909463E1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		B9D95819F0CF1AFB876ECAB1 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		B9D95A2F0B194B32B455EDD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9D95B1157AAD7A2DE3CAE6A /* rest-go-repeatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rest-go-repeatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D95B4414609BA08C443624 /* rest_go_repeatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rest_go_repeatTests.swift; sourceTree = "<group>"; };
+		B9D95BB920D9ED73D298EFEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9D95CD2E64C59AC4C26CD30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B9D95E5904FB14627FCBDE68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B9D95E8B266D549FB0B7BD8A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = file.apns; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		B9D95EFD0D022FD46CE12128 /* rest-go-repeat WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rest-go-repeat WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D95FC646E846CDB990520A /* rest-go-repeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rest-go-repeat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9D9509953DA96F40AC79FA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D9523393833AEA2A102643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D954FA0AE7CD8A0F0044BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D95DB23FCC489B84F5572D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9D9501F9A139A0C943D0BC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9D95FC646E846CDB990520A /* rest-go-repeat.app */,
+				B9D95B1157AAD7A2DE3CAE6A /* rest-go-repeatTests.xctest */,
+				B9D95525122C8744ACE04F7B /* rest-go-repeatUITests.xctest */,
+				B9D95EFD0D022FD46CE12128 /* rest-go-repeat WatchKit App.app */,
+				B9D956456FD8EF239B7EA048 /* rest-go-repeat WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9D95249ED9197A935148D2C /* rest-go-repeat */ = {
+			isa = PBXGroup;
+			children = (
+				B9D95E5904FB14627FCBDE68 /* Info.plist */,
+				B9D95476CBD230AB521FE404 /* Assets.xcassets */,
+				B9D95001A46378CF8CB11385 /* LaunchScreen.storyboard */,
+				B9D950E1303CBEFE73AAD0C3 /* AppDelegate.swift */,
+				B9D95FF729FAC40D55CBBD02 /* Main.storyboard */,
+				B9D95BB920D9ED73D298EFEC /* ViewController.swift */,
+			);
+			path = "rest-go-repeat";
+			sourceTree = "<group>";
+		};
+		B9D953FA519DBC325B24305C /* rest-go-repeat WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				B9D95CD2E64C59AC4C26CD30 /* Info.plist */,
+				B9D95411692D687793B25BB3 /* Assets.xcassets */,
+				B9D95EBAEE1C3FE1CE846D94 /* Interface.storyboard */,
+			);
+			path = "rest-go-repeat WatchKit App";
+			sourceTree = "<group>";
+		};
+		B9D9573D7231D98EF66657BA /* rest-go-repeat WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B9D956E108C7AAA6C8E023D1 /* Info.plist */,
+				B9D95028B0FFDEE2B58E4E5D /* NotificationController.swift */,
+				B9D95C3BB90FEAAE8A4F63D6 /* Supporting Files */,
+				B9D95A2F0B194B32B455EDD8 /* Assets.xcassets */,
+				B9D950CBF556BE87C120988D /* InterfaceController.swift */,
+				B9D95819F0CF1AFB876ECAB1 /* ExtensionDelegate.swift */,
+			);
+			path = "rest-go-repeat WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		B9D9583D12A342F94DB8B95C /* rest-go-repeatTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9D954ADC6D10F224086B004 /* Info.plist */,
+				B9D95B4414609BA08C443624 /* rest_go_repeatTests.swift */,
+			);
+			path = "rest-go-repeatTests";
+			sourceTree = "<group>";
+		};
+		B9D95A3CB37EFCB7A066EA32 /* rest-go-repeatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9D9516E3D8FC20FC7A62225 /* Info.plist */,
+				B9D953114547B313E71943EA /* rest_go_repeatUITests.swift */,
+			);
+			path = "rest-go-repeatUITests";
+			sourceTree = "<group>";
+		};
+		B9D95BD28ED48D0C4DB3CC11 = {
+			isa = PBXGroup;
+			children = (
+				B9D9501F9A139A0C943D0BC2 /* Products */,
+				B9D95249ED9197A935148D2C /* rest-go-repeat */,
+				B9D9583D12A342F94DB8B95C /* rest-go-repeatTests */,
+				B9D95A3CB37EFCB7A066EA32 /* rest-go-repeatUITests */,
+				B9D953FA519DBC325B24305C /* rest-go-repeat WatchKit App */,
+				B9D9573D7231D98EF66657BA /* rest-go-repeat WatchKit Extension */,
+			);
+			sourceTree = "<group>";
+		};
+		B9D95C3BB90FEAAE8A4F63D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9D95E8B266D549FB0B7BD8A /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9D9532F893D2D57F53F8315 /* rest-go-repeatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9D95C9716F7E60AC31504E7 /* Build configuration list for PBXNativeTarget "rest-go-repeatTests" */;
+			buildPhases = (
+				B9D95AF15ABF5C2263F30A41 /* Sources */,
+				B9D9523393833AEA2A102643 /* Frameworks */,
+				B9D950E40B0FF2DBB45FA184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9D95BDE6624292A9A4A7309 /* PBXTargetDependency */,
+			);
+			name = "rest-go-repeatTests";
+			productName = "rest-go-repeatTests";
+			productReference = B9D95B1157AAD7A2DE3CAE6A /* rest-go-repeatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9D955DB49EF26E28F33891E /* rest-go-repeat WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9D95CD746D7EB1FA16E9FA6 /* Build configuration list for PBXNativeTarget "rest-go-repeat WatchKit App" */;
+			buildPhases = (
+				B9D950EE9E893CCF4CF73914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rest-go-repeat WatchKit App";
+			productName = "rest-go-repeat WatchKit App";
+			productReference = B9D95EFD0D022FD46CE12128 /* rest-go-repeat WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		B9D9572372A22E702CA7849B /* rest-go-repeat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9D951F79971797DD61A25A3 /* Build configuration list for PBXNativeTarget "rest-go-repeat" */;
+			buildPhases = (
+				B9D9599995511FEFD8A10842 /* Sources */,
+				B9D9509953DA96F40AC79FA1 /* Frameworks */,
+				B9D9534BE7CD559444311F86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rest-go-repeat";
+			productName = "rest-go-repeat";
+			productReference = B9D95FC646E846CDB990520A /* rest-go-repeat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9D95A2FD8704EE2F0A71E58 /* rest-go-repeat WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9D95854D84985244F10792D /* Build configuration list for PBXNativeTarget "rest-go-repeat WatchKit Extension" */;
+			buildPhases = (
+				B9D958898B6ECFF954A417E8 /* Sources */,
+				B9D95DB23FCC489B84F5572D /* Frameworks */,
+				B9D95D87A6EDB789247911A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rest-go-repeat WatchKit Extension";
+			productName = "rest-go-repeat WatchKit Extension";
+			productReference = B9D956456FD8EF239B7EA048 /* rest-go-repeat WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		B9D95AE3E2753A941BE27BAA /* rest-go-repeatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9D9559F16CB01C18D9165ED /* Build configuration list for PBXNativeTarget "rest-go-repeatUITests" */;
+			buildPhases = (
+				B9D956A7C2901FB4AC5CDCAC /* Sources */,
+				B9D954FA0AE7CD8A0F0044BB /* Frameworks */,
+				B9D95712BB5807C59BD5B97C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9D954FE79160BFFF5CA9894 /* PBXTargetDependency */,
+			);
+			name = "rest-go-repeatUITests";
+			productName = "rest-go-repeatUITests";
+			productReference = B9D95525122C8744ACE04F7B /* rest-go-repeatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9D95CB89C6249CE0A3203F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Logic Pie";
+			};
+			buildConfigurationList = B9D95AEDB1CDF6016D0B093C /* Build configuration list for PBXProject "rest-go-repeat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B9D95BD28ED48D0C4DB3CC11;
+			productRefGroup = B9D9501F9A139A0C943D0BC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9D9572372A22E702CA7849B /* rest-go-repeat */,
+				B9D9532F893D2D57F53F8315 /* rest-go-repeatTests */,
+				B9D95AE3E2753A941BE27BAA /* rest-go-repeatUITests */,
+				B9D955DB49EF26E28F33891E /* rest-go-repeat WatchKit App */,
+				B9D95A2FD8704EE2F0A71E58 /* rest-go-repeat WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9D950E40B0FF2DBB45FA184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D95083137097CE9F41AC9F /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D950EE9E893CCF4CF73914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D95D8F2CF9FB11BDD0253F /* Info.plist in Resources */,
+				B9D95EECADA50D383EF2DDB0 /* Assets.xcassets in Resources */,
+				B9D9534C5EA0B2535223B6E9 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D9534BE7CD559444311F86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D9594BC8C30EFE5CD6A014 /* Info.plist in Resources */,
+				B9D95C8177A6155328AD5575 /* Assets.xcassets in Resources */,
+				B9D9554B283582AAEF85667C /* LaunchScreen.storyboard in Resources */,
+				B9D95D219E3C0F8D92B3E4B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D95712BB5807C59BD5B97C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D955958FBD1C3A25326F9C /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D95D87A6EDB789247911A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D95953D25266E365366202 /* Info.plist in Resources */,
+				B9D953D122584FB068BBC7FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9D956A7C2901FB4AC5CDCAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D953D3B3B9E20F80A81A22 /* rest_go_repeatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D958898B6ECFF954A417E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D9579C27E48B6AB155C05B /* NotificationController.swift in Sources */,
+				B9D95D6C874C825B5D17F79C /* InterfaceController.swift in Sources */,
+				B9D95344EA5B28DCEA89BD78 /* ExtensionDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D9599995511FEFD8A10842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D9587C1117F2E608DD7202 /* AppDelegate.swift in Sources */,
+				B9D9593D424A67B4C6B46300 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D95AF15ABF5C2263F30A41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D95C2ADE5F15F059BA311F /* rest_go_repeatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9D954FE79160BFFF5CA9894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9D9572372A22E702CA7849B /* rest-go-repeat */;
+			targetProxy = B9D9581700CD47067EBC5588 /* PBXContainerItemProxy */;
+		};
+		B9D95BDE6624292A9A4A7309 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9D9572372A22E702CA7849B /* rest-go-repeat */;
+			targetProxy = B9D95738F86F62D23B5C4974 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9D95001A46378CF8CB11385 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9D954B46518B45F44DA6DE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B9D95EBAEE1C3FE1CE846D94 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9D9579A9585840909463E1F /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		B9D95FF729FAC40D55CBBD02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9D9525AEDF131C1253F0936 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9D9512B54D6CD4707ED0314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9D9527ADBF3C2B0BFC922E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/rest-go-repeat.app/rest-go-repeat";
+				INFOPLIST_FILE = "rest-go-repeatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.logicpie.rest-go-repeatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		B9D95492F1992C3F60A72465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9D957AD88C9CC7076718059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "rest-go-repeat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.logicpie.rest-go-repeat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B9D95B4B4E9C85E8BDD1EB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = rest_go_repeat_WatchKit_Extension;
+				INFOPLIST_FILE = "rest-go-repeat WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.logicpie.rest-go-repeat.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		B9D95B80E8CE61E6FFC323A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "rest-go-repeat WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.logicpie.rest-go-repeat.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		B9D95BCCE5D46E08981E6E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/rest-go-repeat.app/rest-go-repeat";
+				INFOPLIST_FILE = "rest-go-repeatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.logicpie.rest-go-repeatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		B9D95C8137979BD5203770C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/rest-go-repeat.app/rest-go-repeat";
+				INFOPLIST_FILE = "rest-go-repeatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.logicpie.rest-go-repeatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		B9D95D096C4851C06F809CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = rest_go_repeat_WatchKit_Extension;
+				INFOPLIST_FILE = "rest-go-repeat WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.logicpie.rest-go-repeat.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		B9D95D0B4CEE6844702E8865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "rest-go-repeat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.logicpie.rest-go-repeat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B9D95F47039C236E720579C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "rest-go-repeat WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.logicpie.rest-go-repeat.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		B9D95FF2408D05A9EA98B19D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/rest-go-repeat.app/rest-go-repeat";
+				INFOPLIST_FILE = "rest-go-repeatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.logicpie.rest-go-repeatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9D951F79971797DD61A25A3 /* Build configuration list for PBXNativeTarget "rest-go-repeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D95D0B4CEE6844702E8865 /* Debug */,
+				B9D957AD88C9CC7076718059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B9D9559F16CB01C18D9165ED /* Build configuration list for PBXNativeTarget "rest-go-repeatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D95C8137979BD5203770C0 /* Debug */,
+				B9D95BCCE5D46E08981E6E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B9D95854D84985244F10792D /* Build configuration list for PBXNativeTarget "rest-go-repeat WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D95F47039C236E720579C7 /* Debug */,
+				B9D95B80E8CE61E6FFC323A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B9D95AEDB1CDF6016D0B093C /* Build configuration list for PBXProject "rest-go-repeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D95492F1992C3F60A72465 /* Debug */,
+				B9D9512B54D6CD4707ED0314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9D95C9716F7E60AC31504E7 /* Build configuration list for PBXNativeTarget "rest-go-repeatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D9527ADBF3C2B0BFC922E8 /* Debug */,
+				B9D95FF2408D05A9EA98B19D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B9D95CD746D7EB1FA16E9FA6 /* Build configuration list for PBXNativeTarget "rest-go-repeat WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D95B4B4E9C85E8BDD1EB19 /* Debug */,
+				B9D95D096C4851C06F809CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9D95CB89C6249CE0A3203F5 /* Project object */;
+}
