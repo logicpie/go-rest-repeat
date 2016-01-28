@@ -3,7 +3,7 @@
 //  rest-go-repeatUITests
 //
 //  Created by Adam Price - myBBC on 28/01/2016.
-//  Copyright (c) 2016 Logic Pie. All rights reserved.
+//  Copyright © 2016 Logic Pie. All rights reserved.
 //
 
 import XCTest

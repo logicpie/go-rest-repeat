@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		9B09773E1C5A331900F2607E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B09773C1C5A32C400F2607E /* Info.plist */; };
+		9B0977471C5A36C500F2607E /* rest_go_repeatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0977461C5A36C500F2607E /* rest_go_repeatUITests.swift */; };
 		B9D95344EA5B28DCEA89BD78 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95819F0CF1AFB876ECAB1 /* ExtensionDelegate.swift */; };
 		B9D9534C5EA0B2535223B6E9 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D95EBAEE1C3FE1CE846D94 /* Interface.storyboard */; };
 		B9D953D122584FB068BBC7FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D95A2F0B194B32B455EDD8 /* Assets.xcassets */; };
-		B9D953D3B3B9E20F80A81A22 /* rest_go_repeatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D953114547B313E71943EA /* rest_go_repeatUITests.swift */; };
 		B9D9554B283582AAEF85667C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D95001A46378CF8CB11385 /* LaunchScreen.storyboard */; };
 		B9D9579C27E48B6AB155C05B /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95028B0FFDEE2B58E4E5D /* NotificationController.swift */; };
 		B9D9587C1117F2E608DD7202 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D950E1303CBEFE73AAD0C3 /* AppDelegate.swift */; };
@@ -24,14 +24,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B9D95738F86F62D23B5C4974 /* PBXContainerItemProxy */ = {
+		9B0977491C5A36C500F2607E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B9D95CB89C6249CE0A3203F5 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B9D9572372A22E702CA7849B;
 			remoteInfo = "rest-go-repeat";
 		};
-		B9D9581700CD47067EBC5588 /* PBXContainerItemProxy */ = {
+		B9D95738F86F62D23B5C4974 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B9D95CB89C6249CE0A3203F5 /* Project object */;
 			proxyType = 1;
@@ -42,16 +42,16 @@
 
 /* Begin PBXFileReference section */
 		9B09773C1C5A32C400F2607E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B09773D1C5A32DB00F2607E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B0977441C5A36C500F2607E /* rest-go-repeatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rest-go-repeatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0977461C5A36C500F2607E /* rest_go_repeatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rest_go_repeatUITests.swift; sourceTree = "<group>"; };
+		9B0977481C5A36C500F2607E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9D95028B0FFDEE2B58E4E5D /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		B9D950CBF556BE87C120988D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		B9D950E1303CBEFE73AAD0C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9D9525AEDF131C1253F0936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B9D953114547B313E71943EA /* rest_go_repeatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rest_go_repeatUITests.swift; sourceTree = "<group>"; };
 		B9D95411692D687793B25BB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9D95476CBD230AB521FE404 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9D954B46518B45F44DA6DE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B9D95525122C8744ACE04F7B /* rest-go-repeatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rest-go-repeatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9D956456FD8EF239B7EA048 /* rest-go-repeat WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "rest-go-repeat WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9D956E108C7AAA6C8E023D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		B9D9579A9585840909463E1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -68,6 +68,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9B0977411C5A36C500F2607E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B9D9509953DA96F40AC79FA1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,13 +83,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B9D9523393833AEA2A102643 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B9D954FA0AE7CD8A0F0044BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -99,14 +99,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B0977451C5A36C500F2607E /* rest-go-repeatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B0977461C5A36C500F2607E /* rest_go_repeatUITests.swift */,
+				9B0977481C5A36C500F2607E /* Info.plist */,
+			);
+			path = "rest-go-repeatUITests";
+			sourceTree = "<group>";
+		};
 		B9D9501F9A139A0C943D0BC2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				B9D95FC646E846CDB990520A /* rest-go-repeat.app */,
 				B9D95B1157AAD7A2DE3CAE6A /* rest-go-repeatTests.xctest */,
-				B9D95525122C8744ACE04F7B /* rest-go-repeatUITests.xctest */,
 				B9D95EFD0D022FD46CE12128 /* rest-go-repeat WatchKit App.app */,
 				B9D956456FD8EF239B7EA048 /* rest-go-repeat WatchKit Extension.appex */,
+				9B0977441C5A36C500F2607E /* rest-go-repeatUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,22 +165,13 @@
 			path = "rest-go-repeatTests";
 			sourceTree = "<group>";
 		};
-		B9D95A3CB37EFCB7A066EA32 /* rest-go-repeatUITests */ = {
-			isa = PBXGroup;
-			children = (
-				9B09773D1C5A32DB00F2607E /* Info.plist */,
-				B9D953114547B313E71943EA /* rest_go_repeatUITests.swift */,
-			);
-			path = "rest-go-repeatUITests";
-			sourceTree = "<group>";
-		};
 		B9D95BD28ED48D0C4DB3CC11 = {
 			isa = PBXGroup;
 			children = (
 				B9D9501F9A139A0C943D0BC2 /* Products */,
 				B9D95249ED9197A935148D2C /* rest-go-repeat */,
 				B9D9583D12A342F94DB8B95C /* rest-go-repeatTests */,
-				B9D95A3CB37EFCB7A066EA32 /* rest-go-repeatUITests */,
+				9B0977451C5A36C500F2607E /* rest-go-repeatUITests */,
 				B9D953FA519DBC325B24305C /* rest-go-repeat WatchKit App */,
 				B9D9573D7231D98EF66657BA /* rest-go-repeat WatchKit Extension */,
 			);
@@ -188,6 +188,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9B0977431C5A36C500F2607E /* rest-go-repeatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B09774B1C5A36C500F2607E /* Build configuration list for PBXNativeTarget "rest-go-repeatUITests" */;
+			buildPhases = (
+				9B0977401C5A36C500F2607E /* Sources */,
+				9B0977411C5A36C500F2607E /* Frameworks */,
+				9B0977421C5A36C500F2607E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B09774A1C5A36C500F2607E /* PBXTargetDependency */,
+			);
+			name = "rest-go-repeatUITests";
+			productName = "rest-go-repeatUITests";
+			productReference = 9B0977441C5A36C500F2607E /* rest-go-repeatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		B9D9532F893D2D57F53F8315 /* rest-go-repeatTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9D95C9716F7E60AC31504E7 /* Build configuration list for PBXNativeTarget "rest-go-repeatTests" */;
@@ -255,24 +273,6 @@
 			productReference = B9D956456FD8EF239B7EA048 /* rest-go-repeat WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
-		B9D95AE3E2753A941BE27BAA /* rest-go-repeatUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B9D9559F16CB01C18D9165ED /* Build configuration list for PBXNativeTarget "rest-go-repeatUITests" */;
-			buildPhases = (
-				B9D956A7C2901FB4AC5CDCAC /* Sources */,
-				B9D954FA0AE7CD8A0F0044BB /* Frameworks */,
-				B9D95712BB5807C59BD5B97C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B9D954FE79160BFFF5CA9894 /* PBXTargetDependency */,
-			);
-			name = "rest-go-repeatUITests";
-			productName = "rest-go-repeatUITests";
-			productReference = B9D95525122C8744ACE04F7B /* rest-go-repeatUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -282,6 +282,12 @@
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Logic Pie";
+				TargetAttributes = {
+					9B0977431C5A36C500F2607E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B9D9572372A22E702CA7849B;
+					};
+				};
 			};
 			buildConfigurationList = B9D95AEDB1CDF6016D0B093C /* Build configuration list for PBXProject "rest-go-repeat" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -297,14 +303,21 @@
 			targets = (
 				B9D9572372A22E702CA7849B /* rest-go-repeat */,
 				B9D9532F893D2D57F53F8315 /* rest-go-repeatTests */,
-				B9D95AE3E2753A941BE27BAA /* rest-go-repeatUITests */,
 				B9D955DB49EF26E28F33891E /* rest-go-repeat WatchKit App */,
 				B9D95A2FD8704EE2F0A71E58 /* rest-go-repeat WatchKit Extension */,
+				9B0977431C5A36C500F2607E /* rest-go-repeatUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9B0977421C5A36C500F2607E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B9D950E40B0FF2DBB45FA184 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -332,13 +345,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9D95712BB5807C59BD5B97C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B9D95D87A6EDB789247911A1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -350,11 +356,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B9D956A7C2901FB4AC5CDCAC /* Sources */ = {
+		9B0977401C5A36C500F2607E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9D953D3B3B9E20F80A81A22 /* rest_go_repeatUITests.swift in Sources */,
+				9B0977471C5A36C500F2607E /* rest_go_repeatUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,10 +394,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B9D954FE79160BFFF5CA9894 /* PBXTargetDependency */ = {
+		9B09774A1C5A36C500F2607E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B9D9572372A22E702CA7849B /* rest-go-repeat */;
-			targetProxy = B9D9581700CD47067EBC5588 /* PBXContainerItemProxy */;
+			targetProxy = 9B0977491C5A36C500F2607E /* PBXContainerItemProxy */;
 		};
 		B9D95BDE6624292A9A4A7309 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -428,6 +434,30 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		9B09774C1C5A36C500F2607E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "rest-go-repeatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.logicpie.rest-go-repeatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "rest-go-repeat";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9B09774D1C5A36C500F2607E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "rest-go-repeatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.logicpie.rest-go-repeatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "rest-go-repeat";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 		B9D9512B54D6CD4707ED0314 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -564,30 +594,6 @@
 			};
 			name = Release;
 		};
-		B9D95BCCE5D46E08981E6E80 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/rest-go-repeat.app/rest-go-repeat";
-				INFOPLIST_FILE = "rest-go-repeatUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "net.logicpie.rest-go-repeatUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Release;
-		};
-		B9D95C8137979BD5203770C0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/rest-go-repeat.app/rest-go-repeat";
-				INFOPLIST_FILE = "rest-go-repeatUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "net.logicpie.rest-go-repeatUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Debug;
-		};
 		B9D95D096C4851C06F809CA5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -644,20 +650,19 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9B09774B1C5A36C500F2607E /* Build configuration list for PBXNativeTarget "rest-go-repeatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B09774C1C5A36C500F2607E /* Debug */,
+				9B09774D1C5A36C500F2607E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		B9D951F79971797DD61A25A3 /* Build configuration list for PBXNativeTarget "rest-go-repeat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9D95D0B4CEE6844702E8865 /* Debug */,
 				B9D957AD88C9CC7076718059 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B9D9559F16CB01C18D9165ED /* Build configuration list for PBXNativeTarget "rest-go-repeatUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B9D95C8137979BD5203770C0 /* Debug */,
-				B9D95BCCE5D46E08981E6E80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
