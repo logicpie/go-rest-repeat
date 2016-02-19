@@ -1,0 +1,6 @@
+framework module Pods_rest_go_repeat {
+  umbrella header "Pods-rest-go-repeat-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -21,6 +21,7 @@
 		B9D95D219E3C0F8D92B3E4B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D95FF729FAC40D55CBBD02 /* Main.storyboard */; };
 		B9D95D6C874C825B5D17F79C /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D950CBF556BE87C120988D /* InterfaceController.swift */; };
 		B9D95EECADA50D383EF2DDB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D95411692D687793B25BB3 /* Assets.xcassets */; };
+		D7B6909CEDD257C510DEDF6D /* Pods_rest_go_repeat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CEF34992BFAC40D82663727 /* Pods_rest_go_repeat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		342433E64ED7F4B8E3BE3F88 /* Pods-rest-go-repeat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rest-go-repeat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rest-go-repeat/Pods-rest-go-repeat.debug.xcconfig"; sourceTree = "<group>"; };
+		73601648CB313133AA732E7C /* Pods-rest-go-repeat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rest-go-repeat.release.xcconfig"; path = "Pods/Target Support Files/Pods-rest-go-repeat/Pods-rest-go-repeat.release.xcconfig"; sourceTree = "<group>"; };
 		9B09773C1C5A32C400F2607E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B0977441C5A36C500F2607E /* rest-go-repeatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rest-go-repeatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B0977461C5A36C500F2607E /* rest_go_repeatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rest_go_repeatUITests.swift; sourceTree = "<group>"; };
 		9B0977481C5A36C500F2607E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CEF34992BFAC40D82663727 /* Pods_rest_go_repeat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rest_go_repeat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9D95028B0FFDEE2B58E4E5D /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		B9D950CBF556BE87C120988D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		B9D950E1303CBEFE73AAD0C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7B6909CEDD257C510DEDF6D /* Pods_rest_go_repeat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +104,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F9BF8745563816FD64366AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				342433E64ED7F4B8E3BE3F88 /* Pods-rest-go-repeat.debug.xcconfig */,
+				73601648CB313133AA732E7C /* Pods-rest-go-repeat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9B0977451C5A36C500F2607E /* rest-go-repeatUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +188,8 @@
 				9B0977451C5A36C500F2607E /* rest-go-repeatUITests */,
 				B9D953FA519DBC325B24305C /* rest-go-repeat WatchKit App */,
 				B9D9573D7231D98EF66657BA /* rest-go-repeat WatchKit Extension */,
+				5F9BF8745563816FD64366AE /* Pods */,
+				CE548392B95BEAC3B5C26ADF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -183,6 +199,14 @@
 				B9D95E8B266D549FB0B7BD8A /* PushNotificationPayload.apns */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE548392B95BEAC3B5C26ADF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CEF34992BFAC40D82663727 /* Pods_rest_go_repeat.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +267,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9D951F79971797DD61A25A3 /* Build configuration list for PBXNativeTarget "rest-go-repeat" */;
 			buildPhases = (
+				4753C264DACE2D856CA4397D /* Check Pods Manifest.lock */,
 				B9D9599995511FEFD8A10842 /* Sources */,
 				B9D9509953DA96F40AC79FA1 /* Frameworks */,
 				B9D9534BE7CD559444311F86 /* Resources */,
+				183F8A400F094EB57B45CE57 /* Embed Pods Frameworks */,
+				60FB4C587E753E3D5829907B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -354,6 +381,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		183F8A400F094EB57B45CE57 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rest-go-repeat/Pods-rest-go-repeat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4753C264DACE2D856CA4397D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		60FB4C587E753E3D5829907B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rest-go-repeat/Pods-rest-go-repeat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9B0977401C5A36C500F2607E /* Sources */ = {
@@ -555,6 +630,7 @@
 		};
 		B9D957AD88C9CC7076718059 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73601648CB313133AA732E7C /* Pods-rest-go-repeat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "rest-go-repeat/Info.plist";
@@ -612,6 +688,7 @@
 		};
 		B9D95D0B4CEE6844702E8865 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 342433E64ED7F4B8E3BE3F88 /* Pods-rest-go-repeat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "rest-go-repeat/Info.plist";
@@ -657,6 +734,7 @@
 				9B09774D1C5A36C500F2607E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9D951F79971797DD61A25A3 /* Build configuration list for PBXNativeTarget "rest-go-repeat" */ = {
 			isa = XCConfigurationList;
