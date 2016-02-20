@@ -5,5 +5,11 @@ target 'rest-go-repeat' do
     pod 'RxSwift',    '~> 2.0'
     pod 'RxCocoa',    '~> 2.0'
     pod 'RxBlocking', '~> 2.0'
-    pod 'RxTests',    '~> 2.0'
+end
+
+target 'rest-go-repeatTests' do
+    pod 'RxSwift',    '~> 2.0'
+    pod 'RxCocoa',    '~> 2.0'
+    pod 'RxBlocking', '~> 2.0'
+    pod 'RxTests', '~> 2.0'
 end

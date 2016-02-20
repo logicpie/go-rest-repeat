@@ -84,12 +84,14 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-rest-go-repeat/RxBlocking.framework"
-  install_framework "Pods-rest-go-repeat/RxCocoa.framework"
-  install_framework "Pods-rest-go-repeat/RxSwift.framework"
+  install_framework "Pods-rest-go-repeatTests/RxBlocking.framework"
+  install_framework "Pods-rest-go-repeatTests/RxCocoa.framework"
+  install_framework "Pods-rest-go-repeatTests/RxSwift.framework"
+  install_framework "Pods-rest-go-repeatTests/RxTests.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-rest-go-repeat/RxBlocking.framework"
-  install_framework "Pods-rest-go-repeat/RxCocoa.framework"
-  install_framework "Pods-rest-go-repeat/RxSwift.framework"
+  install_framework "Pods-rest-go-repeatTests/RxBlocking.framework"
+  install_framework "Pods-rest-go-repeatTests/RxCocoa.framework"
+  install_framework "Pods-rest-go-repeatTests/RxSwift.framework"
+  install_framework "Pods-rest-go-repeatTests/RxTests.framework"
 fi
