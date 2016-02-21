@@ -1,0 +1,4 @@
+language: objective-c
+osx_image: xcode7.2
+xcode_project: rest-go-repeat.xcodeproj # path to your xcodeproj folder
+xcode_scheme: All tests
