@@ -1,0 +1,6 @@
+framework module Pods_rest_go_repeatUITests {
+  umbrella header "Pods-rest-go-repeatUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

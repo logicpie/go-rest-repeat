@@ -84,11 +84,13 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-rest-go-repeat/ChameleonFramework.framework"
   install_framework "Pods-rest-go-repeat/RxBlocking.framework"
   install_framework "Pods-rest-go-repeat/RxCocoa.framework"
   install_framework "Pods-rest-go-repeat/RxSwift.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-rest-go-repeat/ChameleonFramework.framework"
   install_framework "Pods-rest-go-repeat/RxBlocking.framework"
   install_framework "Pods-rest-go-repeat/RxCocoa.framework"
   install_framework "Pods-rest-go-repeat/RxSwift.framework"
