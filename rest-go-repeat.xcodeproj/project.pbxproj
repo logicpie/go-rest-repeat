@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		2059E4AD0D2E4F81D01A1305 /* Pods_rest_go_repeat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82CD2DCE9993EA884A1EEE9 /* Pods_rest_go_repeat.framework */; };
 		7CFA4FFF63E71F4DD7507439 /* Pods_rest_go_repeatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A6C37C911C21300689E8D9 /* Pods_rest_go_repeatUITests.framework */; };
-		9B09773E1C5A331900F2607E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B09773C1C5A32C400F2607E /* Info.plist */; };
 		9B0977471C5A36C500F2607E /* rest_go_repeatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0977461C5A36C500F2607E /* rest_go_repeatUITests.swift */; };
 		9B14E0A11C78B133005BEBCF /* WorkoutTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95A4636672156C228CD12 /* WorkoutTimerTests.swift */; };
 		9B14E0A21C78B218005BEBCF /* WorkoutTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95EBDCB9E189DFC2FC21E /* WorkoutTimer.swift */; };
 		9BF2F50B1C7A56C3000697D8 /* CallbackMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF2F50A1C7A56C3000697D8 /* CallbackMock.swift */; };
 		9BF2F50C1C7A56DF000697D8 /* TimerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D954C0465F057A79847915 /* TimerProtocol.swift */; };
+		9BF2F50E1C7A67F9000697D8 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF2F50D1C7A67F9000697D8 /* DoubleExtension.swift */; };
 		A2174DB05C482537755D960A /* Pods_rest_go_repeat_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC21D38F85AC7D6489CF64 /* Pods_rest_go_repeat_WatchKit_App.framework */; };
 		AFC20F87B59D2DE61A73E762 /* Pods_rest_go_repeat_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB41914D2EA0522470D3B4BF /* Pods_rest_go_repeat_WatchKit_Extension.framework */; };
 		B9D9514B41DA7030B45BBBBC /* WorkoutTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95EBDCB9E189DFC2FC21E /* WorkoutTimer.swift */; };
@@ -59,6 +59,7 @@
 		9B0977461C5A36C500F2607E /* rest_go_repeatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rest_go_repeatUITests.swift; sourceTree = "<group>"; };
 		9B0977481C5A36C500F2607E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BF2F50A1C7A56C3000697D8 /* CallbackMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallbackMock.swift; sourceTree = "<group>"; };
+		9BF2F50D1C7A67F9000697D8 /* DoubleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
 		AAFC21D38F85AC7D6489CF64 /* Pods_rest_go_repeat_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rest_go_repeat_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA1AC8850EC5EC002A3CC24 /* Pods-rest-go-repeat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rest-go-repeat.release.xcconfig"; path = "Pods/Target Support Files/Pods-rest-go-repeat/Pods-rest-go-repeat.release.xcconfig"; sourceTree = "<group>"; };
 		B29D795EE5BBF1F69117DE62 /* Pods-rest-go-repeatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rest-go-repeatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-rest-go-repeatTests/Pods-rest-go-repeatTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -198,6 +199,7 @@
 				B9D950E1303CBEFE73AAD0C3 /* AppDelegate.swift */,
 				B9D95FF729FAC40D55CBBD02 /* Main.storyboard */,
 				B9D95BB920D9ED73D298EFEC /* ViewController.swift */,
+				9BF2F50D1C7A67F9000697D8 /* DoubleExtension.swift */,
 				B9D95EBDCB9E189DFC2FC21E /* WorkoutTimer.swift */,
 				B9D954C0465F057A79847915 /* TimerProtocol.swift */,
 			);
@@ -410,7 +412,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B09773E1C5A331900F2607E /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,6 +665,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BF2F50E1C7A67F9000697D8 /* DoubleExtension.swift in Sources */,
 				B9D9587C1117F2E608DD7202 /* AppDelegate.swift in Sources */,
 				B9D9593D424A67B4C6B46300 /* ViewController.swift in Sources */,
 				B9D9514B41DA7030B45BBBBC /* WorkoutTimer.swift in Sources */,

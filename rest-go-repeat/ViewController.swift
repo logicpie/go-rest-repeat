@@ -13,12 +13,15 @@ import ChameleonFramework
 class ViewController: UIViewController, TimerProtocol {
 
     var workoutTimer: WorkoutTimer!
+    
+    var timerText = 40.0
+    
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var cycleTypeLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        self.setStatusBarStyle(UIStatusBarStyleContrast)
-
+        
         workoutTimer = WorkoutTimer(withCycles: [40.0, 50.0], andCallback: self)
         workoutTimer.startWorkout()
     }
@@ -28,8 +31,8 @@ class ViewController: UIViewController, TimerProtocol {
         super.didReceiveMemoryWarning()
     }
 
-    func onTimerUpdate() {
-        print("hello")
+    func onTimerUpdate(time: Double!) {
+        label.text = "00:" + String.init(time.roundToPlaces(2))
     }
 
 }

@@ -10,7 +10,7 @@ import Foundation
 
 class CallbackMock: TimerProtocol {
     
-    func onTimerUpdate() {
+    func onTimerUpdate(time: Double!) {
         
     }
     

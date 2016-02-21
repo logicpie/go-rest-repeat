@@ -7,6 +7,6 @@ import Foundation
 
 protocol TimerProtocol {
 
-    func onTimerUpdate()
+    func onTimerUpdate(time: Double!)
 
 }

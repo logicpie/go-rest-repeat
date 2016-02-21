@@ -10,6 +10,10 @@ class WorkoutTimer {
     var cycles: Array<NSTimeInterval>
     var timer: NSTimer!
     var callback: TimerProtocol
+    
+    var currentCycle: Double!
+    
+    var cycleIndex: Int! = 0
 
     init(withCycles cycles: Array<NSTimeInterval>, andCallback callback: TimerProtocol) {
         self.cycles = cycles;
@@ -17,7 +21,10 @@ class WorkoutTimer {
     }
 
     func startWorkout() {
-        self.timer = NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: "updateTimer:", userInfo: nil, repeats: true)
+        
+        currentCycle = cycles[cycleIndex]
+        
+        self.timer = NSTimer.scheduledTimerWithTimeInterval(0.01, target: self, selector: "updateTimer:", userInfo: nil, repeats: true)
     }
 
     func addInterval(timer: NSTimeInterval) {
@@ -33,7 +40,15 @@ class WorkoutTimer {
     }
 
     @objc func updateTimer(timer: NSTimer) {
-        callback.onTimerUpdate()
+        
+        currentCycle = currentCycle - timer.timeInterval
+        callback.onTimerUpdate(currentCycle)
+        
+        if (currentCycle.roundToPlaces(2) == 0) {
+            cycleIndex = cycleIndex + 1
+            currentCycle = cycles[cycleIndex]
+        }
+        
     }
 
 }

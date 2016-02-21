@@ -35,5 +35,10 @@ class WorkoutTimerTests: XCTestCase {
     func testGetCycles() {
         XCTAssertEqual(cycles, timer.getCycles())
     }
+    
+    func testTimerCallback() {
+//        let expectation = expectationWithDescription("Timer")
+//        waitForExpectationsWithTimeout(0.5, handler: nil)
+    }
 
 }
