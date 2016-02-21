@@ -31,5 +31,9 @@ class WorkoutTimerTests: XCTestCase {
         timer.removeInterval(1)
         XCTAssertEqual(1, timer.getCycles().count)
     }
+    
+    func testGetCycles() {
+        XCTAssertEqual(cycles, timer.getCycles())
+    }
 
 }
