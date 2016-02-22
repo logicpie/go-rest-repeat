@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:rest-go-repeat.xcodeproj">
+      location = "group:/Users/pricea70/Development/logic-pie/go-rest-repeat/go-rest-repeat.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

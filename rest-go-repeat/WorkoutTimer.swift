@@ -21,10 +21,14 @@ class WorkoutTimer {
     }
 
     func startWorkout() {
-        
         currentCycle = cycles[cycleIndex]
-        
         self.timer = NSTimer.scheduledTimerWithTimeInterval(0.01, target: self, selector: "updateTimer:", userInfo: nil, repeats: true)
+    }
+    
+    func stopWorkout() {
+        if (timer != nil) {
+            timer.invalidate()
+        }
     }
 
     func addInterval(timer: NSTimeInterval) {
@@ -41,7 +45,7 @@ class WorkoutTimer {
 
     @objc func updateTimer(timer: NSTimer) {
         
-        currentCycle = currentCycle - timer.timeInterval
+        currentCycle = currentCycle - 0.01
         callback.onTimerUpdate(currentCycle)
         
         if (currentCycle.roundToPlaces(2) == 0) {

@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B9D9572372A22E702CA7849B"
-            BuildableName = "rest-go-repeat.app"
-            BlueprintName = "rest-go-repeat"
-            ReferencedContainer = "container:rest-go-repeat.xcodeproj">
+            BuildableName = "go-rest-repeat.app"
+            BlueprintName = "go-rest-repeat"
+            ReferencedContainer = "container:go-rest-repeat.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B9D9572372A22E702CA7849B"
-            BuildableName = "rest-go-repeat.app"
-            BlueprintName = "rest-go-repeat"
-            ReferencedContainer = "container:rest-go-repeat.xcodeproj">
+            BuildableName = "go-rest-repeat.app"
+            BlueprintName = "go-rest-repeat"
+            ReferencedContainer = "container:go-rest-repeat.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>

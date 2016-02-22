@@ -15,6 +15,7 @@
 		9BF2F50B1C7A56C3000697D8 /* CallbackMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF2F50A1C7A56C3000697D8 /* CallbackMock.swift */; };
 		9BF2F50C1C7A56DF000697D8 /* TimerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D954C0465F057A79847915 /* TimerProtocol.swift */; };
 		9BF2F50E1C7A67F9000697D8 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF2F50D1C7A67F9000697D8 /* DoubleExtension.swift */; };
+		9BF2F50F1C7B1E6F000697D8 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF2F50D1C7A67F9000697D8 /* DoubleExtension.swift */; };
 		A2174DB05C482537755D960A /* Pods_rest_go_repeat_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC21D38F85AC7D6489CF64 /* Pods_rest_go_repeat_WatchKit_App.framework */; };
 		AFC20F87B59D2DE61A73E762 /* Pods_rest_go_repeat_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB41914D2EA0522470D3B4BF /* Pods_rest_go_repeat_WatchKit_Extension.framework */; };
 		B9D9514B41DA7030B45BBBBC /* WorkoutTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95EBDCB9E189DFC2FC21E /* WorkoutTimer.swift */; };
@@ -55,7 +56,7 @@
 		52F5D2CE7980998114D2FF0F /* Pods-rest-go-repeat WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rest-go-repeat WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-rest-go-repeat WatchKit Extension/Pods-rest-go-repeat WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 		68F6CA70832A6AF4289E54C8 /* Pods-rest-go-repeat WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rest-go-repeat WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rest-go-repeat WatchKit Extension/Pods-rest-go-repeat WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		9B09773C1C5A32C400F2607E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B0977441C5A36C500F2607E /* rest-go-repeatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rest-go-repeatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0977441C5A36C500F2607E /* go-rest-repeat.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "go-rest-repeat.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B0977461C5A36C500F2607E /* rest_go_repeatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rest_go_repeatUITests.swift; sourceTree = "<group>"; };
 		9B0977481C5A36C500F2607E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BF2F50A1C7A56C3000697D8 /* CallbackMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallbackMock.swift; sourceTree = "<group>"; };
@@ -71,20 +72,20 @@
 		B9D95476CBD230AB521FE404 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9D954B46518B45F44DA6DE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9D954C0465F057A79847915 /* TimerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerProtocol.swift; sourceTree = "<group>"; };
-		B9D956456FD8EF239B7EA048 /* rest-go-repeat WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "rest-go-repeat WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D956456FD8EF239B7EA048 /* go-rest-repeat.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "go-rest-repeat.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9D956E108C7AAA6C8E023D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		B9D9579A9585840909463E1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		B9D95819F0CF1AFB876ECAB1 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		B9D95A2F0B194B32B455EDD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9D95A4636672156C228CD12 /* WorkoutTimerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutTimerTests.swift; sourceTree = "<group>"; };
-		B9D95B1157AAD7A2DE3CAE6A /* rest-go-repeatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rest-go-repeatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D95B1157AAD7A2DE3CAE6A /* go-rest-repeat.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "go-rest-repeat.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9D95BB920D9ED73D298EFEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B9D95CD2E64C59AC4C26CD30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		B9D95E5904FB14627FCBDE68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		B9D95E8B266D549FB0B7BD8A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = file.apns; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		B9D95EBDCB9E189DFC2FC21E /* WorkoutTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutTimer.swift; sourceTree = "<group>"; };
-		B9D95EFD0D022FD46CE12128 /* rest-go-repeat WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rest-go-repeat WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9D95FC646E846CDB990520A /* rest-go-repeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rest-go-repeat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D95EFD0D022FD46CE12128 /* go-rest-repeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "go-rest-repeat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D95FC646E846CDB990520A /* go-rest-repeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "go-rest-repeat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5A6C37C911C21300689E8D9 /* Pods_rest_go_repeatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rest_go_repeatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6802DB1CECABC3274AA8335 /* Pods-rest-go-repeat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rest-go-repeat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rest-go-repeat/Pods-rest-go-repeat.debug.xcconfig"; sourceTree = "<group>"; };
 		CDC87D984C97DBB704921B73 /* Pods_rest_go_repeatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rest_go_repeatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -181,11 +182,11 @@
 		B9D9501F9A139A0C943D0BC2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B9D95FC646E846CDB990520A /* rest-go-repeat.app */,
-				B9D95B1157AAD7A2DE3CAE6A /* rest-go-repeatTests.xctest */,
-				B9D95EFD0D022FD46CE12128 /* rest-go-repeat WatchKit App.app */,
-				B9D956456FD8EF239B7EA048 /* rest-go-repeat WatchKit Extension.appex */,
-				9B0977441C5A36C500F2607E /* rest-go-repeatUITests.xctest */,
+				B9D95FC646E846CDB990520A /* go-rest-repeat.app */,
+				B9D95B1157AAD7A2DE3CAE6A /* go-rest-repeat.xctest */,
+				B9D95EFD0D022FD46CE12128 /* go-rest-repeat.app */,
+				B9D956456FD8EF239B7EA048 /* go-rest-repeat.appex */,
+				9B0977441C5A36C500F2607E /* go-rest-repeat.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -264,9 +265,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9B0977431C5A36C500F2607E /* rest-go-repeatUITests */ = {
+		9B0977431C5A36C500F2607E /* go-rest-repeatUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B09774B1C5A36C500F2607E /* Build configuration list for PBXNativeTarget "rest-go-repeatUITests" */;
+			buildConfigurationList = 9B09774B1C5A36C500F2607E /* Build configuration list for PBXNativeTarget "go-rest-repeatUITests" */;
 			buildPhases = (
 				09634B12341041E5B471A4DD /* Check Pods Manifest.lock */,
 				9B0977401C5A36C500F2607E /* Sources */,
@@ -279,14 +280,14 @@
 			dependencies = (
 				9B09774A1C5A36C500F2607E /* PBXTargetDependency */,
 			);
-			name = "rest-go-repeatUITests";
+			name = "go-rest-repeatUITests";
 			productName = "rest-go-repeatUITests";
-			productReference = 9B0977441C5A36C500F2607E /* rest-go-repeatUITests.xctest */;
+			productReference = 9B0977441C5A36C500F2607E /* go-rest-repeat.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		B9D9532F893D2D57F53F8315 /* rest-go-repeatTests */ = {
+		B9D9532F893D2D57F53F8315 /* go-rest-repeatTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9D95C9716F7E60AC31504E7 /* Build configuration list for PBXNativeTarget "rest-go-repeatTests" */;
+			buildConfigurationList = B9D95C9716F7E60AC31504E7 /* Build configuration list for PBXNativeTarget "go-rest-repeatTests" */;
 			buildPhases = (
 				512E877EAE8E22B8B5A16F7A /* Check Pods Manifest.lock */,
 				B9D95AF15ABF5C2263F30A41 /* Sources */,
@@ -300,14 +301,14 @@
 			dependencies = (
 				B9D95BDE6624292A9A4A7309 /* PBXTargetDependency */,
 			);
-			name = "rest-go-repeatTests";
+			name = "go-rest-repeatTests";
 			productName = "rest-go-repeatTests";
-			productReference = B9D95B1157AAD7A2DE3CAE6A /* rest-go-repeatTests.xctest */;
+			productReference = B9D95B1157AAD7A2DE3CAE6A /* go-rest-repeat.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B9D955DB49EF26E28F33891E /* rest-go-repeat WatchKit App */ = {
+		B9D955DB49EF26E28F33891E /* go-rest-repeat WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9D95CD746D7EB1FA16E9FA6 /* Build configuration list for PBXNativeTarget "rest-go-repeat WatchKit App" */;
+			buildConfigurationList = B9D95CD746D7EB1FA16E9FA6 /* Build configuration list for PBXNativeTarget "go-rest-repeat WatchKit App" */;
 			buildPhases = (
 				33DC66C7680327217CFE25DA /* Check Pods Manifest.lock */,
 				B9D950EE9E893CCF4CF73914 /* Resources */,
@@ -318,14 +319,14 @@
 			);
 			dependencies = (
 			);
-			name = "rest-go-repeat WatchKit App";
+			name = "go-rest-repeat WatchKit App";
 			productName = "rest-go-repeat WatchKit App";
-			productReference = B9D95EFD0D022FD46CE12128 /* rest-go-repeat WatchKit App.app */;
+			productReference = B9D95EFD0D022FD46CE12128 /* go-rest-repeat.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		B9D9572372A22E702CA7849B /* rest-go-repeat */ = {
+		B9D9572372A22E702CA7849B /* go-rest-repeat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9D951F79971797DD61A25A3 /* Build configuration list for PBXNativeTarget "rest-go-repeat" */;
+			buildConfigurationList = B9D951F79971797DD61A25A3 /* Build configuration list for PBXNativeTarget "go-rest-repeat" */;
 			buildPhases = (
 				BB6D283FA4A6AE009D0B3E98 /* Check Pods Manifest.lock */,
 				B9D9599995511FEFD8A10842 /* Sources */,
@@ -338,14 +339,14 @@
 			);
 			dependencies = (
 			);
-			name = "rest-go-repeat";
+			name = "go-rest-repeat";
 			productName = "rest-go-repeat";
-			productReference = B9D95FC646E846CDB990520A /* rest-go-repeat.app */;
+			productReference = B9D95FC646E846CDB990520A /* go-rest-repeat.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B9D95A2FD8704EE2F0A71E58 /* rest-go-repeat WatchKit Extension */ = {
+		B9D95A2FD8704EE2F0A71E58 /* go-rest-repeat WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9D95854D84985244F10792D /* Build configuration list for PBXNativeTarget "rest-go-repeat WatchKit Extension" */;
+			buildConfigurationList = B9D95854D84985244F10792D /* Build configuration list for PBXNativeTarget "go-rest-repeat WatchKit Extension" */;
 			buildPhases = (
 				6F65DAF35C6CC0FD05DC4289 /* Check Pods Manifest.lock */,
 				B9D958898B6ECFF954A417E8 /* Sources */,
@@ -358,9 +359,9 @@
 			);
 			dependencies = (
 			);
-			name = "rest-go-repeat WatchKit Extension";
+			name = "go-rest-repeat WatchKit Extension";
 			productName = "rest-go-repeat WatchKit Extension";
-			productReference = B9D956456FD8EF239B7EA048 /* rest-go-repeat WatchKit Extension.appex */;
+			productReference = B9D956456FD8EF239B7EA048 /* go-rest-repeat.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
@@ -379,7 +380,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B9D95AEDB1CDF6016D0B093C /* Build configuration list for PBXProject "rest-go-repeat" */;
+			buildConfigurationList = B9D95AEDB1CDF6016D0B093C /* Build configuration list for PBXProject "go-rest-repeat" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -391,11 +392,11 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B9D9572372A22E702CA7849B /* rest-go-repeat */,
-				B9D9532F893D2D57F53F8315 /* rest-go-repeatTests */,
-				B9D955DB49EF26E28F33891E /* rest-go-repeat WatchKit App */,
-				B9D95A2FD8704EE2F0A71E58 /* rest-go-repeat WatchKit Extension */,
-				9B0977431C5A36C500F2607E /* rest-go-repeatUITests */,
+				B9D9572372A22E702CA7849B /* go-rest-repeat */,
+				B9D9532F893D2D57F53F8315 /* go-rest-repeatTests */,
+				B9D955DB49EF26E28F33891E /* go-rest-repeat WatchKit App */,
+				B9D95A2FD8704EE2F0A71E58 /* go-rest-repeat WatchKit Extension */,
+				9B0977431C5A36C500F2607E /* go-rest-repeatUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -677,6 +678,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BF2F50F1C7B1E6F000697D8 /* DoubleExtension.swift in Sources */,
 				9BF2F50B1C7A56C3000697D8 /* CallbackMock.swift in Sources */,
 				9BF2F50C1C7A56DF000697D8 /* TimerProtocol.swift in Sources */,
 				9B14E0A21C78B218005BEBCF /* WorkoutTimer.swift in Sources */,
@@ -689,12 +691,12 @@
 /* Begin PBXTargetDependency section */
 		9B09774A1C5A36C500F2607E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B9D9572372A22E702CA7849B /* rest-go-repeat */;
+			target = B9D9572372A22E702CA7849B /* go-rest-repeat */;
 			targetProxy = 9B0977491C5A36C500F2607E /* PBXContainerItemProxy */;
 		};
 		B9D95BDE6624292A9A4A7309 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B9D9572372A22E702CA7849B /* rest-go-repeat */;
+			target = B9D9572372A22E702CA7849B /* go-rest-repeat */;
 			targetProxy = B9D95738F86F62D23B5C4974 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -734,7 +736,7 @@
 				INFOPLIST_FILE = "rest-go-repeatUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.logicpie.rest-go-repeatUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "go-rest-repeat";
 				TEST_TARGET_NAME = "rest-go-repeat";
 				USES_XCTRUNNER = YES;
 			};
@@ -747,7 +749,7 @@
 				INFOPLIST_FILE = "rest-go-repeatUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.logicpie.rest-go-repeatUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "go-rest-repeat";
 				TEST_TARGET_NAME = "rest-go-repeat";
 				USES_XCTRUNNER = YES;
 			};
@@ -799,7 +801,7 @@
 				INFOPLIST_FILE = "rest-go-repeatTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.logicpie.rest-go-repeatTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "go-rest-repeat";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
@@ -857,7 +859,7 @@
 				INFOPLIST_FILE = "rest-go-repeat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.logicpie.rest-go-repeat";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "go-rest-repeat";
 			};
 			name = Release;
 		};
@@ -870,7 +872,7 @@
 				IBSC_MODULE = rest_go_repeat_WatchKit_Extension;
 				INFOPLIST_FILE = "rest-go-repeat WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.logicpie.rest-go-repeat.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "go-rest-repeat";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -885,7 +887,7 @@
 				INFOPLIST_FILE = "rest-go-repeat WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.logicpie.rest-go-repeat.watchkitapp.watchkitextension";
-				PRODUCT_NAME = "${TARGET_NAME}";
+				PRODUCT_NAME = "go-rest-repeat";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -902,7 +904,7 @@
 				IBSC_MODULE = rest_go_repeat_WatchKit_Extension;
 				INFOPLIST_FILE = "rest-go-repeat WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.logicpie.rest-go-repeat.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "go-rest-repeat";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -918,7 +920,7 @@
 				INFOPLIST_FILE = "rest-go-repeat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.logicpie.rest-go-repeat";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "go-rest-repeat";
 			};
 			name = Debug;
 		};
@@ -929,7 +931,7 @@
 				INFOPLIST_FILE = "rest-go-repeat WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.logicpie.rest-go-repeat.watchkitapp.watchkitextension";
-				PRODUCT_NAME = "${TARGET_NAME}";
+				PRODUCT_NAME = "go-rest-repeat";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -945,7 +947,7 @@
 				INFOPLIST_FILE = "rest-go-repeatTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.logicpie.rest-go-repeatTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "go-rest-repeat";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
@@ -953,7 +955,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9B09774B1C5A36C500F2607E /* Build configuration list for PBXNativeTarget "rest-go-repeatUITests" */ = {
+		9B09774B1C5A36C500F2607E /* Build configuration list for PBXNativeTarget "go-rest-repeatUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9B09774C1C5A36C500F2607E /* Debug */,
@@ -962,7 +964,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9D951F79971797DD61A25A3 /* Build configuration list for PBXNativeTarget "rest-go-repeat" */ = {
+		B9D951F79971797DD61A25A3 /* Build configuration list for PBXNativeTarget "go-rest-repeat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9D95D0B4CEE6844702E8865 /* Debug */,
@@ -971,7 +973,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9D95854D84985244F10792D /* Build configuration list for PBXNativeTarget "rest-go-repeat WatchKit Extension" */ = {
+		B9D95854D84985244F10792D /* Build configuration list for PBXNativeTarget "go-rest-repeat WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9D95F47039C236E720579C7 /* Debug */,
@@ -980,7 +982,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9D95AEDB1CDF6016D0B093C /* Build configuration list for PBXProject "rest-go-repeat" */ = {
+		B9D95AEDB1CDF6016D0B093C /* Build configuration list for PBXProject "go-rest-repeat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9D95492F1992C3F60A72465 /* Debug */,
@@ -989,7 +991,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9D95C9716F7E60AC31504E7 /* Build configuration list for PBXNativeTarget "rest-go-repeatTests" */ = {
+		B9D95C9716F7E60AC31504E7 /* Build configuration list for PBXNativeTarget "go-rest-repeatTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9D9527ADBF3C2B0BFC922E8 /* Debug */,
@@ -998,7 +1000,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9D95CD746D7EB1FA16E9FA6 /* Build configuration list for PBXNativeTarget "rest-go-repeat WatchKit App" */ = {
+		B9D95CD746D7EB1FA16E9FA6 /* Build configuration list for PBXNativeTarget "go-rest-repeat WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9D95B4B4E9C85E8BDD1EB19 /* Debug */,
