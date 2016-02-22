@@ -2,7 +2,7 @@
 //  DoubleExtension.swift
 //  rest-go-repeat
 //
-//  Created by Adam Price - myBBC on 21/02/2016.
+//  Created by Adam Price on 21/02/2016.
 //  Copyright © 2016 Logic Pie. All rights reserved.
 //
 
