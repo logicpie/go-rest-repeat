@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2059E4AD0D2E4F81D01A1305 /* Pods_rest_go_repeat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82CD2DCE9993EA884A1EEE9 /* Pods_rest_go_repeat.framework */; };
-		7CFA4FFF63E71F4DD7507439 /* Pods_rest_go_repeatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A6C37C911C21300689E8D9 /* Pods_rest_go_repeatUITests.framework */; };
+		8E9CB7C31F0F8CC26B9CE8D1 /* Pods_go_rest_repeat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0136A5C6210C7559F33874B7 /* Pods_go_rest_repeat.framework */; };
 		9B0977471C5A36C500F2607E /* rest_go_repeatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0977461C5A36C500F2607E /* rest_go_repeatUITests.swift */; };
 		9B14E0A11C78B133005BEBCF /* WorkoutTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95A4636672156C228CD12 /* WorkoutTimerTests.swift */; };
 		9B14E0A21C78B218005BEBCF /* WorkoutTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95EBDCB9E189DFC2FC21E /* WorkoutTimer.swift */; };
@@ -16,8 +15,7 @@
 		9BF2F50C1C7A56DF000697D8 /* TimerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D954C0465F057A79847915 /* TimerProtocol.swift */; };
 		9BF2F50E1C7A67F9000697D8 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF2F50D1C7A67F9000697D8 /* DoubleExtension.swift */; };
 		9BF2F50F1C7B1E6F000697D8 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF2F50D1C7A67F9000697D8 /* DoubleExtension.swift */; };
-		A2174DB05C482537755D960A /* Pods_rest_go_repeat_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC21D38F85AC7D6489CF64 /* Pods_rest_go_repeat_WatchKit_App.framework */; };
-		AFC20F87B59D2DE61A73E762 /* Pods_rest_go_repeat_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB41914D2EA0522470D3B4BF /* Pods_rest_go_repeat_WatchKit_Extension.framework */; };
+		B7DA64A70FDA60E8A1B80587 /* Pods_go_rest_repeatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF188AC8E20CEE0BD224A77 /* Pods_go_rest_repeatTests.framework */; };
 		B9D9514B41DA7030B45BBBBC /* WorkoutTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95EBDCB9E189DFC2FC21E /* WorkoutTimer.swift */; };
 		B9D95344EA5B28DCEA89BD78 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95819F0CF1AFB876ECAB1 /* ExtensionDelegate.swift */; };
 		B9D9534C5EA0B2535223B6E9 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D95EBAEE1C3FE1CE846D94 /* Interface.storyboard */; };
@@ -31,7 +29,6 @@
 		B9D95D219E3C0F8D92B3E4B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D95FF729FAC40D55CBBD02 /* Main.storyboard */; };
 		B9D95D6C874C825B5D17F79C /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D950CBF556BE87C120988D /* InterfaceController.swift */; };
 		B9D95EECADA50D383EF2DDB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D95411692D687793B25BB3 /* Assets.xcassets */; };
-		FD37EE0F6AF5C43EF6D61A32 /* Pods_rest_go_repeatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC87D984C97DBB704921B73 /* Pods_rest_go_repeatTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,18 +49,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		160BBED5FA63435A91305281 /* Pods-rest-go-repeatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rest-go-repeatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rest-go-repeatTests/Pods-rest-go-repeatTests.debug.xcconfig"; sourceTree = "<group>"; };
-		52F5D2CE7980998114D2FF0F /* Pods-rest-go-repeat WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rest-go-repeat WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-rest-go-repeat WatchKit Extension/Pods-rest-go-repeat WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
-		68F6CA70832A6AF4289E54C8 /* Pods-rest-go-repeat WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rest-go-repeat WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rest-go-repeat WatchKit Extension/Pods-rest-go-repeat WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		0136A5C6210C7559F33874B7 /* Pods_go_rest_repeat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_go_rest_repeat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4448258C000051C8C52607DC /* Pods-go-rest-repeat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-go-rest-repeat.release.xcconfig"; path = "Pods/Target Support Files/Pods-go-rest-repeat/Pods-go-rest-repeat.release.xcconfig"; sourceTree = "<group>"; };
+		4DF188AC8E20CEE0BD224A77 /* Pods_go_rest_repeatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_go_rest_repeatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96E0BC92A1504913D8F16BC3 /* Pods-go-rest-repeat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-go-rest-repeat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-go-rest-repeat/Pods-go-rest-repeat.debug.xcconfig"; sourceTree = "<group>"; };
+		99BD563C9071CDF15FEF4FCD /* Pods-go-rest-repeatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-go-rest-repeatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-go-rest-repeatTests/Pods-go-rest-repeatTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9B09773C1C5A32C400F2607E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B0977441C5A36C500F2607E /* go-rest-repeat.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "go-rest-repeat.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B0977461C5A36C500F2607E /* rest_go_repeatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rest_go_repeatUITests.swift; sourceTree = "<group>"; };
 		9B0977481C5A36C500F2607E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BF2F50A1C7A56C3000697D8 /* CallbackMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallbackMock.swift; sourceTree = "<group>"; };
 		9BF2F50D1C7A67F9000697D8 /* DoubleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
-		AAFC21D38F85AC7D6489CF64 /* Pods_rest_go_repeat_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rest_go_repeat_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADA1AC8850EC5EC002A3CC24 /* Pods-rest-go-repeat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rest-go-repeat.release.xcconfig"; path = "Pods/Target Support Files/Pods-rest-go-repeat/Pods-rest-go-repeat.release.xcconfig"; sourceTree = "<group>"; };
-		B29D795EE5BBF1F69117DE62 /* Pods-rest-go-repeatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rest-go-repeatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-rest-go-repeatTests/Pods-rest-go-repeatTests.release.xcconfig"; sourceTree = "<group>"; };
 		B9D95028B0FFDEE2B58E4E5D /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		B9D950CBF556BE87C120988D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		B9D950E1303CBEFE73AAD0C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,15 +82,7 @@
 		B9D95EBDCB9E189DFC2FC21E /* WorkoutTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutTimer.swift; sourceTree = "<group>"; };
 		B9D95EFD0D022FD46CE12128 /* go-rest-repeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "go-rest-repeat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9D95FC646E846CDB990520A /* go-rest-repeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "go-rest-repeat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5A6C37C911C21300689E8D9 /* Pods_rest_go_repeatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rest_go_repeatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6802DB1CECABC3274AA8335 /* Pods-rest-go-repeat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rest-go-repeat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rest-go-repeat/Pods-rest-go-repeat.debug.xcconfig"; sourceTree = "<group>"; };
-		CDC87D984C97DBB704921B73 /* Pods_rest_go_repeatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rest_go_repeatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFAE34924E05DC2E15823270 /* Pods-rest-go-repeatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rest-go-repeatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rest-go-repeatUITests/Pods-rest-go-repeatUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		D59A185922CDCC03CE1F77D8 /* Pods-rest-go-repeat WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rest-go-repeat WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-rest-go-repeat WatchKit App/Pods-rest-go-repeat WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
-		D82CD2DCE9993EA884A1EEE9 /* Pods_rest_go_repeat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rest_go_repeat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E923E5E17DB26EEA0A13DBE5 /* Pods-rest-go-repeat WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rest-go-repeat WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rest-go-repeat WatchKit App/Pods-rest-go-repeat WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
-		EB41914D2EA0522470D3B4BF /* Pods_rest_go_repeat_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rest_go_repeat_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDFEB4E1812D9C34DE10D06E /* Pods-rest-go-repeatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rest-go-repeatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-rest-go-repeatUITests/Pods-rest-go-repeatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DA19747B932401FE60AE2145 /* Pods-go-rest-repeatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-go-rest-repeatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-go-rest-repeatTests/Pods-go-rest-repeatTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +90,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2174DB05C482537755D960A /* Pods_rest_go_repeat_WatchKit_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,7 +97,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CFA4FFF63E71F4DD7507439 /* Pods_rest_go_repeatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,7 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2059E4AD0D2E4F81D01A1305 /* Pods_rest_go_repeat.framework in Frameworks */,
+				8E9CB7C31F0F8CC26B9CE8D1 /* Pods_go_rest_repeat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD37EE0F6AF5C43EF6D61A32 /* Pods_rest_go_repeatTests.framework in Frameworks */,
+				B7DA64A70FDA60E8A1B80587 /* Pods_go_rest_repeatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,49 +120,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFC20F87B59D2DE61A73E762 /* Pods_rest_go_repeat_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6337B8EAA36CA6E0428809CA /* Frameworks */ = {
+		0E66CE92EC350041CCC2CDB0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D82CD2DCE9993EA884A1EEE9 /* Pods_rest_go_repeat.framework */,
-				AAFC21D38F85AC7D6489CF64 /* Pods_rest_go_repeat_WatchKit_App.framework */,
-				EB41914D2EA0522470D3B4BF /* Pods_rest_go_repeat_WatchKit_Extension.framework */,
-				CDC87D984C97DBB704921B73 /* Pods_rest_go_repeatTests.framework */,
-				C5A6C37C911C21300689E8D9 /* Pods_rest_go_repeatUITests.framework */,
+				0136A5C6210C7559F33874B7 /* Pods_go_rest_repeat.framework */,
+				4DF188AC8E20CEE0BD224A77 /* Pods_go_rest_repeatTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		71087A804A1702006BF3CE52 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C6802DB1CECABC3274AA8335 /* Pods-rest-go-repeat.debug.xcconfig */,
-				ADA1AC8850EC5EC002A3CC24 /* Pods-rest-go-repeat.release.xcconfig */,
-				E923E5E17DB26EEA0A13DBE5 /* Pods-rest-go-repeat WatchKit App.debug.xcconfig */,
-				D59A185922CDCC03CE1F77D8 /* Pods-rest-go-repeat WatchKit App.release.xcconfig */,
-				68F6CA70832A6AF4289E54C8 /* Pods-rest-go-repeat WatchKit Extension.debug.xcconfig */,
-				52F5D2CE7980998114D2FF0F /* Pods-rest-go-repeat WatchKit Extension.release.xcconfig */,
-				160BBED5FA63435A91305281 /* Pods-rest-go-repeatTests.debug.xcconfig */,
-				B29D795EE5BBF1F69117DE62 /* Pods-rest-go-repeatTests.release.xcconfig */,
-				CFAE34924E05DC2E15823270 /* Pods-rest-go-repeatUITests.debug.xcconfig */,
-				FDFEB4E1812D9C34DE10D06E /* Pods-rest-go-repeatUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		9B0977451C5A36C500F2607E /* rest-go-repeatUITests */ = {
+		9B0977451C5A36C500F2607E /* go-rest-repeatUITests */ = {
 			isa = PBXGroup;
 			children = (
 				9B0977461C5A36C500F2607E /* rest_go_repeatUITests.swift */,
 				9B0977481C5A36C500F2607E /* Info.plist */,
 			);
-			path = "rest-go-repeatUITests";
+			path = "go-rest-repeatUITests";
 			sourceTree = "<group>";
 		};
 		B9D9501F9A139A0C943D0BC2 /* Products */ = {
@@ -191,7 +156,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B9D95249ED9197A935148D2C /* rest-go-repeat */ = {
+		B9D95249ED9197A935148D2C /* go-rest-repeat */ = {
 			isa = PBXGroup;
 			children = (
 				B9D95E5904FB14627FCBDE68 /* Info.plist */,
@@ -204,20 +169,20 @@
 				B9D95EBDCB9E189DFC2FC21E /* WorkoutTimer.swift */,
 				B9D954C0465F057A79847915 /* TimerProtocol.swift */,
 			);
-			path = "rest-go-repeat";
+			path = "go-rest-repeat";
 			sourceTree = "<group>";
 		};
-		B9D953FA519DBC325B24305C /* rest-go-repeat WatchKit App */ = {
+		B9D953FA519DBC325B24305C /* go-rest-repeat WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
 				B9D95CD2E64C59AC4C26CD30 /* Info.plist */,
 				B9D95411692D687793B25BB3 /* Assets.xcassets */,
 				B9D95EBAEE1C3FE1CE846D94 /* Interface.storyboard */,
 			);
-			path = "rest-go-repeat WatchKit App";
+			path = "go-rest-repeat WatchKit App";
 			sourceTree = "<group>";
 		};
-		B9D9573D7231D98EF66657BA /* rest-go-repeat WatchKit Extension */ = {
+		B9D9573D7231D98EF66657BA /* go-rest-repeat WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
 				B9D956E108C7AAA6C8E023D1 /* Info.plist */,
@@ -227,30 +192,30 @@
 				B9D950CBF556BE87C120988D /* InterfaceController.swift */,
 				B9D95819F0CF1AFB876ECAB1 /* ExtensionDelegate.swift */,
 			);
-			path = "rest-go-repeat WatchKit Extension";
+			path = "go-rest-repeat WatchKit Extension";
 			sourceTree = "<group>";
 		};
-		B9D9583D12A342F94DB8B95C /* rest-go-repeatTests */ = {
+		B9D9583D12A342F94DB8B95C /* go-rest-repeatTests */ = {
 			isa = PBXGroup;
 			children = (
 				9B09773C1C5A32C400F2607E /* Info.plist */,
 				B9D95A4636672156C228CD12 /* WorkoutTimerTests.swift */,
 				9BF2F50A1C7A56C3000697D8 /* CallbackMock.swift */,
 			);
-			path = "rest-go-repeatTests";
+			path = "go-rest-repeatTests";
 			sourceTree = "<group>";
 		};
 		B9D95BD28ED48D0C4DB3CC11 = {
 			isa = PBXGroup;
 			children = (
 				B9D9501F9A139A0C943D0BC2 /* Products */,
-				B9D95249ED9197A935148D2C /* rest-go-repeat */,
-				B9D9583D12A342F94DB8B95C /* rest-go-repeatTests */,
-				9B0977451C5A36C500F2607E /* rest-go-repeatUITests */,
-				B9D953FA519DBC325B24305C /* rest-go-repeat WatchKit App */,
-				B9D9573D7231D98EF66657BA /* rest-go-repeat WatchKit Extension */,
-				71087A804A1702006BF3CE52 /* Pods */,
-				6337B8EAA36CA6E0428809CA /* Frameworks */,
+				B9D95249ED9197A935148D2C /* go-rest-repeat */,
+				B9D9583D12A342F94DB8B95C /* go-rest-repeatTests */,
+				9B0977451C5A36C500F2607E /* go-rest-repeatUITests */,
+				B9D953FA519DBC325B24305C /* go-rest-repeat WatchKit App */,
+				B9D9573D7231D98EF66657BA /* go-rest-repeat WatchKit Extension */,
+				ED803F386372A4797E1912E2 /* Pods */,
+				0E66CE92EC350041CCC2CDB0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -262,6 +227,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ED803F386372A4797E1912E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96E0BC92A1504913D8F16BC3 /* Pods-go-rest-repeat.debug.xcconfig */,
+				4448258C000051C8C52607DC /* Pods-go-rest-repeat.release.xcconfig */,
+				99BD563C9071CDF15FEF4FCD /* Pods-go-rest-repeatTests.debug.xcconfig */,
+				DA19747B932401FE60AE2145 /* Pods-go-rest-repeatTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -269,11 +245,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B09774B1C5A36C500F2607E /* Build configuration list for PBXNativeTarget "go-rest-repeatUITests" */;
 			buildPhases = (
-				09634B12341041E5B471A4DD /* Check Pods Manifest.lock */,
 				9B0977401C5A36C500F2607E /* Sources */,
 				9B0977411C5A36C500F2607E /* Frameworks */,
 				9B0977421C5A36C500F2607E /* Resources */,
-				68C7162671FF3D6D3EAD0F3A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -289,12 +263,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9D95C9716F7E60AC31504E7 /* Build configuration list for PBXNativeTarget "go-rest-repeatTests" */;
 			buildPhases = (
-				512E877EAE8E22B8B5A16F7A /* Check Pods Manifest.lock */,
+				1BCDD63AA27B21678D9F9849 /* Check Pods Manifest.lock */,
 				B9D95AF15ABF5C2263F30A41 /* Sources */,
 				B9D9523393833AEA2A102643 /* Frameworks */,
 				B9D950E40B0FF2DBB45FA184 /* Resources */,
-				C0169E39C9237E3E34B2FAA9 /* Embed Pods Frameworks */,
-				F67C3ADE731ACE6C06F75687 /* Copy Pods Resources */,
+				89708EE1AC477A1DC998A61E /* Embed Pods Frameworks */,
+				8994CFFAA468D1AD11A1D4BE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -310,10 +284,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9D95CD746D7EB1FA16E9FA6 /* Build configuration list for PBXNativeTarget "go-rest-repeat WatchKit App" */;
 			buildPhases = (
-				33DC66C7680327217CFE25DA /* Check Pods Manifest.lock */,
 				B9D950EE9E893CCF4CF73914 /* Resources */,
 				45EA5259033040B2F77AC46D /* Frameworks */,
-				9DE23E2E5EDF6083D2379626 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -328,12 +300,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9D951F79971797DD61A25A3 /* Build configuration list for PBXNativeTarget "go-rest-repeat" */;
 			buildPhases = (
-				BB6D283FA4A6AE009D0B3E98 /* Check Pods Manifest.lock */,
+				9A052D800D5E6684795D8320 /* Check Pods Manifest.lock */,
 				B9D9599995511FEFD8A10842 /* Sources */,
 				B9D9509953DA96F40AC79FA1 /* Frameworks */,
 				B9D9534BE7CD559444311F86 /* Resources */,
-				9D00679B70615C4857BDAB7C /* Embed Pods Frameworks */,
-				6FC271565C33C2956256F7CA /* Copy Pods Resources */,
+				BFC4259B2FDD59FAF8C8D9C9 /* Embed Pods Frameworks */,
+				C7D34AB14A7D3AD2865B2CCF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -348,12 +320,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9D95854D84985244F10792D /* Build configuration list for PBXNativeTarget "go-rest-repeat WatchKit Extension" */;
 			buildPhases = (
-				6F65DAF35C6CC0FD05DC4289 /* Check Pods Manifest.lock */,
 				B9D958898B6ECFF954A417E8 /* Sources */,
 				B9D95DB23FCC489B84F5572D /* Frameworks */,
 				B9D95D87A6EDB789247911A1 /* Resources */,
-				21AC3BCF5E6C466AD07F8A48 /* Embed Pods Frameworks */,
-				5C41C3A2CAB6AAB6355400D0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -446,7 +415,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		09634B12341041E5B471A4DD /* Check Pods Manifest.lock */ = {
+		1BCDD63AA27B21678D9F9849 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -461,7 +430,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		21AC3BCF5E6C466AD07F8A48 /* Embed Pods Frameworks */ = {
+		89708EE1AC477A1DC998A61E /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -473,10 +442,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rest-go-repeat WatchKit Extension/Pods-rest-go-repeat WatchKit Extension-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-go-rest-repeatTests/Pods-go-rest-repeatTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		33DC66C7680327217CFE25DA /* Check Pods Manifest.lock */ = {
+		8994CFFAA468D1AD11A1D4BE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-go-rest-repeatTests/Pods-go-rest-repeatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A052D800D5E6684795D8320 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -491,82 +475,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		512E877EAE8E22B8B5A16F7A /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		5C41C3A2CAB6AAB6355400D0 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rest-go-repeat WatchKit Extension/Pods-rest-go-repeat WatchKit Extension-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		68C7162671FF3D6D3EAD0F3A /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rest-go-repeatUITests/Pods-rest-go-repeatUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6F65DAF35C6CC0FD05DC4289 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		6FC271565C33C2956256F7CA /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rest-go-repeat/Pods-rest-go-repeat-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9D00679B70615C4857BDAB7C /* Embed Pods Frameworks */ = {
+		BFC4259B2FDD59FAF8C8D9C9 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -578,10 +487,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rest-go-repeat/Pods-rest-go-repeat-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-go-rest-repeat/Pods-go-rest-repeat-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9DE23E2E5EDF6083D2379626 /* Copy Pods Resources */ = {
+		C7D34AB14A7D3AD2865B2CCF /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -593,52 +502,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rest-go-repeat WatchKit App/Pods-rest-go-repeat WatchKit App-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BB6D283FA4A6AE009D0B3E98 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C0169E39C9237E3E34B2FAA9 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rest-go-repeatTests/Pods-rest-go-repeatTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F67C3ADE731ACE6C06F75687 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rest-go-repeatTests/Pods-rest-go-repeatTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-go-rest-repeat/Pods-go-rest-repeat-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -731,7 +595,6 @@
 /* Begin XCBuildConfiguration section */
 		9B09774C1C5A36C500F2607E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFAE34924E05DC2E15823270 /* Pods-rest-go-repeatUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "rest-go-repeatUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -744,7 +607,6 @@
 		};
 		9B09774D1C5A36C500F2607E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDFEB4E1812D9C34DE10D06E /* Pods-rest-go-repeatUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "rest-go-repeatUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -795,7 +657,7 @@
 		};
 		B9D9527ADBF3C2B0BFC922E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 160BBED5FA63435A91305281 /* Pods-rest-go-repeatTests.debug.xcconfig */;
+			baseConfigurationReference = 99BD563C9071CDF15FEF4FCD /* Pods-go-rest-repeatTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/rest-go-repeat.app/rest-go-repeat";
 				INFOPLIST_FILE = "rest-go-repeatTests/Info.plist";
@@ -853,19 +715,18 @@
 		};
 		B9D957AD88C9CC7076718059 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADA1AC8850EC5EC002A3CC24 /* Pods-rest-go-repeat.release.xcconfig */;
+			baseConfigurationReference = 4448258C000051C8C52607DC /* Pods-go-rest-repeat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "rest-go-repeat/Info.plist";
+				INFOPLIST_FILE = "go-rest-repeat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "net.logicpie.rest-go-repeat";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.logicpie.go-rest-repeat";
 				PRODUCT_NAME = "go-rest-repeat";
 			};
 			name = Release;
 		};
 		B9D95B4B4E9C85E8BDD1EB19 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E923E5E17DB26EEA0A13DBE5 /* Pods-rest-go-repeat WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -882,7 +743,6 @@
 		};
 		B9D95B80E8CE61E6FFC323A5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52F5D2CE7980998114D2FF0F /* Pods-rest-go-repeat WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "rest-go-repeat WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -897,7 +757,6 @@
 		};
 		B9D95D096C4851C06F809CA5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D59A185922CDCC03CE1F77D8 /* Pods-rest-go-repeat WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -914,19 +773,18 @@
 		};
 		B9D95D0B4CEE6844702E8865 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6802DB1CECABC3274AA8335 /* Pods-rest-go-repeat.debug.xcconfig */;
+			baseConfigurationReference = 96E0BC92A1504913D8F16BC3 /* Pods-go-rest-repeat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "rest-go-repeat/Info.plist";
+				INFOPLIST_FILE = "go-rest-repeat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "net.logicpie.rest-go-repeat";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.logicpie.go-rest-repeat";
 				PRODUCT_NAME = "go-rest-repeat";
 			};
 			name = Debug;
 		};
 		B9D95F47039C236E720579C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68F6CA70832A6AF4289E54C8 /* Pods-rest-go-repeat WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "rest-go-repeat WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -941,7 +799,7 @@
 		};
 		B9D95FF2408D05A9EA98B19D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B29D795EE5BBF1F69117DE62 /* Pods-rest-go-repeatTests.release.xcconfig */;
+			baseConfigurationReference = DA19747B932401FE60AE2145 /* Pods-go-rest-repeatTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/rest-go-repeat.app/rest-go-repeat";
 				INFOPLIST_FILE = "rest-go-repeatTests/Info.plist";

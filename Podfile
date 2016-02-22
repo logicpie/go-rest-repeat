@@ -3,29 +3,29 @@
 # Uncomment this line if you're using Swift
 use_frameworks!
 
-target 'rest-go-repeat' do
+target 'go-rest-repeat' do
     pod 'ChameleonFramework/Swift'
     pod 'RxSwift',    '~> 2.0'
     pod 'RxCocoa',    '~> 2.0'
     pod 'RxBlocking', '~> 2.0'
 end
 
-target 'rest-go-repeatTests' do
+target 'go-rest-repeatTests' do
     pod 'RxSwift',    '~> 2.0'
     pod 'RxCocoa',    '~> 2.0'
     pod 'RxBlocking', '~> 2.0'
     pod 'RxTests',    '~> 2.0'
 end
 
-target 'rest-go-repeat WatchKit App' do
+target 'go-rest-repeat WatchKit App' do
 
 end
 
-target 'rest-go-repeat WatchKit Extension' do
+target 'go-rest-repeat WatchKit Extension' do
 
 end
 
-target 'rest-go-repeatUITests' do
+target 'go-rest-repeatUITests' do
 
 end
 
